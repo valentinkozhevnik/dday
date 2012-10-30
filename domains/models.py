@@ -35,7 +35,7 @@ class DomainsNameAdmin(admin.ModelAdmin):
 admin.site.register(DomainsName, DomainsNameAdmin)
 
 class AuctionHouse(models.Model):
-    name = models.CharField(max_length=100, verbose_name=u'Название Аукциона')
+    name = models.CharField(max_length=100, verbose_name=u'Название Ауsdsdfsdfsdfsdfsdfsdfsdfкциона')
     file_prefix = models.CharField(max_length=30, verbose_name=u'Префикс файла')
     parser_separator = models.CharField(max_length=10, verbose_name=u'Строка для парсинга')
     domains_number = models.IntegerField(default=0, verbose_name=u'Количество доменов')
